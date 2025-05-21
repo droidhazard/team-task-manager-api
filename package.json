@@ -1,10 +1,11 @@
 {
   "name": "team-task-manager-api",
   "version": "1.0.0",
-  "description": "a system where users and register and login, and admins can assign tasks to users, and users can find and manage their tasks.",
+  "description": "a system where users can register and login, and admins can assign tasks to users, and users can find and manage their tasks.",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./src/app.js"
   },
   "repository": {
     "type": "git",
